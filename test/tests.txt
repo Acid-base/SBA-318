@@ -1,7 +1,5 @@
 project-setup.test.js:
 
-Tests to verify the existence of essential folders and files.
-Tests to ensure required dependencies like Express, EJS, Mocha, Chai, and the color library are correctly installed and accessible.
 server.test.js:
 
 Tests to confirm the Express server starts up without errors.
