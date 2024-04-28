@@ -1,1 +1,8 @@
 node_modules
+.prettierrc
+.yarnclean
+app.js
+app.mjs
+attackplan.txt
+*.mjs
+objectives.txt
