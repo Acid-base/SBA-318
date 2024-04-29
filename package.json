@@ -15,6 +15,10 @@
   },
   "name": "318",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "main": "app.js",
+  "license": "MIT",
+  "description": "A RESTful API built with NodeJS/Express to assist web developers in working with color schemes",
+  "repository": "https://github.com/Acid-base/SBA-318.git",
+  "author": "Daniel Yates <145247690+Acid-base@users.noreply.github.com>",
+  "private": false
 }
