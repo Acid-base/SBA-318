@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "eslint": "^9.1.1",
+    "mocha": "^10.4.0",
+    "prettier": "^3.2.5",
+    "puppeteer": "^22.7.1"
+  },
+  "dependencies": {
+    "color": "^4.2.3",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-validator": "^7.0.1",
+    "uuid": "^9.0.1"
+  },
+  "name": "318",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
