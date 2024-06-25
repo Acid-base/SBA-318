@@ -42,3 +42,70 @@ app.use('/api/palettes', paletteRoutes);
 app.listen(port, ()  => {
   console.log(`Server listening on port ${port}`);
 });
+
+// ... (previous code: imports, MongoDB connection)
+
+// Create  an instance of the Express Router
+const router = express.Router(); 
+
+ // Define routes using the router instance
+router.get('/', paletteController.getAllPalettes);
+router.get('/:id', paletteController.getPaletteById );
+router.post('/', paletteController.createPalette);
+router.put('/:id', paletteController.updatePalette); 
+router.delete('/:id ', paletteController.deletePalette); 
+
+// ... other routes can be added here as needed
+
+// Mount the router under the '/api/palettes' path
+app.use('/api/palettes', router); 
+
+//  ... (rest of the code: error handling middleware, server listening) 
+app.js (1-19)
+
+
+// ... (previous code: imports, MongoDB connection)
+
+// Create  an instance of the Express Router
+const router = express.Router(); 
+
+ // Define routes using the router instance
+router.get('/', paletteController.getAllPalettes);
+router.get('/:id', paletteController.getPaletteById );
+router.post('/', paletteController.createPalette);
+router.put('/:id', paletteController.updatePalette); 
+router.delete('/:id ', paletteController.deletePalette); 
+
+// ... other routes can be added here as needed
+
+// Mount the router under the '/api/palettes' path
+app.use('/api/palettes', router); 
+
+//  ... (rest of the code: error handling middleware, server listening)
+
+
+app.js (1-19)
+
+
+// ... (previous code: imports, MongoDB connection)
+
+// Create  an instance of the Express Router
+const router = express.Router(); 
+
+ // Define routes using the router instance
+router.get('/', paletteController.getAllPalettes);
+router.get('/:id', paletteController.getPaletteById );
+router.post('/', paletteController.createPalette);
+router.put('/:id', paletteController.updatePalette); 
+router.delete('/:id ', paletteController.deletePalette); 
+
+// ... other routes can be added here as needed
+
+// Mount the router under the '/api/palettes' path
+app.use('/api/palettes', router); 
+
+//  ... (rest of the code: error handling middleware, server listening)
+
+
+
+
