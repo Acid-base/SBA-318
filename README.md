@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Color Scheme RESTful API
 
 This project implements a RESTful API  for creating, managing, and retrieving color scheme palettes. The API is built using  Express.js and can be easily extended to integrate with a front-end application or other services.
@@ -85,3 +86,7 @@ The project includes unit and integration tests to ensure the functionality and 
 ## Contributing 
 
 Contributions to improve the API are welcome! Please fork the repository and submit pull requests with your changes.
+=======
+# SBA 318
+ CYO RESTful API with Express.js
+>>>>>>> e0514cfda6315d2147b6b0cb440dc696076874bb
